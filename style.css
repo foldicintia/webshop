@@ -1,0 +1,31 @@
+* {
+  background-color: black;
+}
+main {
+  max-width: 100%;
+  margin: auto;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+}
+.fomenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.fomenu > li {
+  position: relative;
+  float: left;
+}
+.fomenu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.fomenu li a:hover {
+  border-bottom: 2px solid white;
+}
+.admin {
+  text-align: right;
+}
